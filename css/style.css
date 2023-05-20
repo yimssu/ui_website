@@ -2102,24 +2102,24 @@
 
 
 /************* section13 ******************************/
-#footer {
+#section10 {
     position: relative;
     Height: 1050px;
     background: #000000;
 }
-#footer .left_text_footer {
+#section10 .left_text_10 {
     position: absolute;
     left : 50px;
     top: 50px;
     z-index: 100;
 }
-#footer .right_text_footer {
+#section10 .right_text_10 {
     position: absolute;
     right : 50px;
     top: 50px;
     z-index: 100;
 }
-#footer .line_footer {
+#section10 .line_10 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -2127,7 +2127,7 @@
     z-index: 100;
 }
 
-#footer .maintitle01_footer {
+#section10 .maintitle01_10 {
     position: absolute;
     left: 300px;
     top: 300px;
@@ -2135,14 +2135,14 @@
     height: 143px;
     overflow: hidden;
 }
-#footer .maintitle01_footer img {
+#section10 .maintitle01_10 img {
     transform: translateY(143px);
     transition: 1s;
 }
- #footer .maintitle01_footer.on img {
+ #section10 .maintitle01_10.on img {
    transform: translateY(0);
 }
-#footer .maintitle02_footer {
+#section10 .maintitle02_10 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -2151,14 +2151,14 @@
     height: 149px;
     overflow: hidden;
 }
-#footer .maintitle02_footer img {
+#section10 .maintitle02_10 img {
     transform: translateY(149px);
     transition: 1s;
 }
- #footer .maintitle02_footer.on img {
+ #section10 .maintitle02_10.on img {
    transform: translateY(0);
 }
-#footer .maintitle03_footer {
+#section10 .maintitle03_10 {
     position: absolute;
     left: 650px;
     top: 680px;
@@ -2166,14 +2166,14 @@
     height: 143px;
     overflow: hidden;
 }
-#footer .maintitle03_footer img {
+#section10 .maintitle03_10 img {
     transform: translateY(143px);
     transition: 1s;
 }
- #footer .maintitle03_footer.on img {
+ #section10 .maintitle03_10.on img {
    transform: translateY(0);
 }
-#footer .image_footer {
+#section10 .image_10 {
     position: absolute;
     left: 1150px;
     top: 310px;
@@ -2181,15 +2181,15 @@
     width: 277px;
     overflow: hidden;
 }
-#footer .image_footer img {
+#section10 .image_10 img {
     transform: translateX(-277px);
     transition: 2s;
 }
- #footer .image_footer.on img {
+ #section10 .image_10.on img {
    transform: translateY(0);
 }
 
-#footer .star_footer {
+#section10 .star_10 {
     position: absolute;
     left: 450px;
     top: 670px;
@@ -2201,5 +2201,170 @@
 
 
 
+
+/************ footer *******************************/
+#footer{
+    position: relative;
+    height: 910px;
+    background: rgb(11, 11, 11);
+    overflow: hidden;
+}
+
+#footer .title01_footer {
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    z-index: 100;
+    height: 99px;
+    overflow: hidden;
+}
+#footer .title01_footer img {
+    transform: translateY(99px);
+    transition: 1s;
+}
+#footer .title01_footer.on img {
+    transform: translateY(0);
+}
+
+#footer .title02_footer {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    z-index: 100;
+    height: 99px;
+    overflow: hidden;
+}
+#footer .title02_footer img {
+    transform: translateY(99px);
+    transition: 1s;
+}
+#footer .title02_footer.on img {
+    transform: translateY(0);
+}
+#footer .title03_footer {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    z-index: 100;
+}
+#footer .back_footer {
+    position: absolute;
+    top: 310px;
+    left: 1430px;
+    z-index: 100;
+}
+#footer .next_footer {
+    position: absolute;
+    top: 310px;
+    left: 1620px;
+    z-index: 100;
+}
+
+#footer .line01 {
+    position: absolute;
+    left: 120px;
+    top: 450px;
+    width: 1665px;
+    height: 2px;
+    background-color: #7e7e7e;
+    transition: all 1s;
+}
+/* #footer .line01.on {
+    width: 1745px;
+} */
+
+
+#footer .line02 {
+    position: absolute;
+    left: 120px;
+    top: 730px;
+    width: 1665px;
+    height: 2px;
+    background-color: #7e7e7e;
+    transition: all 1s;
+}
+/* #footer .line02.on {
+    width: 1745px;
+} */
+
+#footer .text01_footer {
+    position: absolute;
+    top: 520px;
+    left: 170px;
+    z-index: 100;
+}
+#footer .text02_footer {
+    position: absolute;
+    top: 520px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link01_footer {
+    position: absolute;
+    top: 570px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link02_footer {
+    position: absolute;
+    top: 600px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link03_footer {
+    position: absolute;
+    top: 630px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link04_footer {
+    position: absolute;
+    top: 660px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link05_footer {
+    position: absolute;
+    top: 570px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .link06_footer {
+    position: absolute;
+    top: 600px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .link07_footer {
+    position: absolute;
+    top: 630px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .text03_footer {
+    position: absolute;
+    top: 755px;
+    left: 120px;
+    z-index: 100;
+}
+#footer .text04_footer {
+    position: absolute;
+    top: 755px;
+    right: 140px;
+    z-index: 100;
+}
+
+#footer .heart01_footer {
+    position: absolute;
+    top: 0px;
+    left: -300px;
+    z-index: 1;
+}
+#footer .heart02_footer {
+    position: absolute;
+    top: 300px;
+    right: -200px;
+    z-index: 1;
+}
 
 

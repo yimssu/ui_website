@@ -354,18 +354,27 @@ window.addEventListener('DOMContentLoaded', function () {
         } 
 
         if(scrollTop >= 31360){
-            $('.maintitle01_footer').addClass('on');
+            $('.maintitle01_10').addClass('on');
         } 
         if(scrollTop >= 31360){
-            $('.image_footer').addClass('on');
+            $('.image_10').addClass('on');
         } 
         if(scrollTop >= 31460){
-            $('.maintitle02_footer').addClass('on');
+            $('.maintitle02_10').addClass('on');
         } 
         if(scrollTop >= 31560){
-            $('.maintitle03_footer').addClass('on');
+            $('.maintitle03_10').addClass('on');
         } 
      
+        if(scrollTop >= 32292){
+            $('.title01_footer').addClass('on');
+        }
+        if(scrollTop >= 32412){
+            $('.title02_footer').addClass('on');
+        }
+
+
+
 
         if(scrollTop >= 100) { // 숫자에 따라 아래로 스크롤 했을 때 사라지는 영역의 크기가 바뀝니다.
             if ((scrollTop > lastScrollTop) && (lastScrollTop>0)) { /* &&: AND, 두 값이 모두 참이어야 값이 출력 */
@@ -449,7 +458,7 @@ window.addEventListener('DOMContentLoaded', function () {
         duration: 20,
         repeat: -1,
       });
-      gsap.to(".star_footer", {
+      gsap.to(".star_10", {
         rotation: 360,
         ease: "none",
         duration: 20,
